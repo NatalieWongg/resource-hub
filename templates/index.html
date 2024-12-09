@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>Resource Hub</title>
+</head>
+<body>
+    <h1>Welcome to the Resource Hub!</h1>
+    <a href="/add">Add a New Resource</a>
+    <ul>
+        {% for resource in resources %}
+        <li>
+            <a href="{{ resource.link }}" target="_blank">{{ resource.title }}</a>
+            <p>{{ resource.description }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
