@@ -25,5 +25,6 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 9px;
-    border-color: #30334d;
+    background-color: #30334d;
+    padding: 30px
 }
