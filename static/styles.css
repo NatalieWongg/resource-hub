@@ -23,13 +23,19 @@
 
 }
 
-.level p{
+.level a{
     border-radius: 9px;
     background-color: #30334d;
     padding: 50px;
     margin: 50px 75px;
     font-size: 20px;
+    text-decoration: none;
 }
+
+a:hover {
+    background-color: #5f648f;
+  }
+  
 
 .igscesubjects p{
     border-radius: 9px;
