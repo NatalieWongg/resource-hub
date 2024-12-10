@@ -9,8 +9,8 @@ resources = []
 def home():
     return render_template('index.html', resources=resources)
 
-@app.route('/igcse')
-def home():
+@app.route("/igcse")
+def igcse():
     return render_template('igcse.html', resources=resources)
 
 @app.route('/add', methods=['GET', 'POST'])
