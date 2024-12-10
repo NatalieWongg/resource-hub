@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="icon" href="https://www.pngkey.com/png/full/245-2454570_garden-international-school-garden-international-school-logo.png" type="image/png">
-    <title>Resource Hub</title>
-</head>
-<body>
-    <header>
-        <img src="https://www.pngkey.com/png/full/245-2454570_garden-international-school-garden-international-school-logo.png" alt="Website Logo" id="logo">
-    </header>
-    <h1>Welcome to the Resource Hub!</h1>
-    <a href="/add">Add a New Resource</a>
-    <ul>
-        {% for resource in resources %}
-        <li>
-            <a href="{{ resource.link }}" target="_blank">{{ resource.title }}</a>
-            <p>{{ resource.description }}</p>
-        </li>
-        {% endfor %}
-    </ul>
-</body>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/static/styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://www.pngkey.com/png/full/245-2454570_garden-international-school-garden-international-school-logo.png" type="image/png">
+        <title>Resource Hub</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1>GIS Resource Hub</h1>
+        </header>
+        <div class="level">
+            <h2>IGCSE</h2>
+            <h3>AS Level</h3>
+            <h4>A Level</h4>
+        </div>
+    </body>
 </html>
