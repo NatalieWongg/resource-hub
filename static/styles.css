@@ -42,15 +42,11 @@ a {
   }
   
 
-.igscesubjects p{
+.igcsesubjects p{
     border-radius: 9px;
     background-color: #30334d;
     padding: 50px;
     margin: 50px 75px;
     font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
 }
