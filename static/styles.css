@@ -23,12 +23,13 @@
 
 }
 
-.level p{
+.level a{
     border-radius: 9px;
     background-color: #30334d;
     padding: 50px;
     margin: 50px 75px;
     font-size: 20px;
+    display: inline-block;
 }
 
 a {
@@ -36,7 +37,7 @@ a {
     color: white;
 }
 
-.level p:hover {
+.level a:hover {
     background-color: #5f648f;
   }
   
@@ -45,6 +46,7 @@ a {
     border-radius: 9px;
     background-color: #30334d;
     padding: 50px;
+    margin: 50px 75px;
     font-size: 20px;
     display: flex;
     flex-direction: row;
