@@ -19,3 +19,10 @@ button {
     padding: 5px 10px;
     cursor: pointer;
 }
+#logo {
+    width: 150px;  
+    height: auto;
+}
+header {
+    height: 200px; 
+}
