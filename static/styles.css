@@ -32,6 +32,21 @@
     margin: 50px 75px;
     font-size: 20px;
 }
+.igcsesubjects p{
+
+    box-sizing: content-box;
+    border-radius: 9px;
+    background-color: #30334d;
+    font-size: 20px;
+    width: 200px;
+    height: 120px;
+    padding: 5px;
+    border: 0px;
+    margin: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
 a {
     text-decoration: none;
@@ -43,13 +58,9 @@ p:hover {
 }
   
 .igcsesubjects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     
-}
-.igscesubjects p{
-    border-radius: 9px;
-    background-color: #30334d;
-    padding: 50px;
-    margin: 50px 75px;
-    font-size: 20px;
 }
