@@ -42,11 +42,11 @@ p:hover {
     background-color: #5f648f;
 }
   
-.igscesubjects{
+.igcsesubjects{
     text-align: center;
     
 }
-.igscesubjects a{
+.igscesubjects p{
     border-radius: 9px;
     background-color: #30334d;
     padding: 50px;
