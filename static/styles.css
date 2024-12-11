@@ -19,7 +19,7 @@
   }
 #navicon{
     display: block;
-    object-fit: cover;
+    aspect-ratio: 100;
 }
 header{
     width: 100%;
