@@ -51,12 +51,10 @@ p:hover {
     margin: 0 auto;
     padding: 20px 10px;
 }
-.igscesubjects p{
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
+.igscesubjects a{
     border-radius: 9px;
     background-color: #30334d;
+    padding: 50px;
+    margin: 50px 75px;
     font-size: 20px;
 }
