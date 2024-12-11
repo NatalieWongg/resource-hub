@@ -41,15 +41,13 @@ p:hover {
 }
   
 .igscesubjects{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 10px;
+    text-align: center;
+    
 }
 .igscesubjects a{
     border-radius: 9px;
