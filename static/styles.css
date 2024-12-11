@@ -15,17 +15,9 @@
     background-color: #0a0a23;
     color: #ffffff;
     font-size: 10px;
-    position: fixed;
-    z-index: 1000;
   }
 
-  h1 {
-    display: inline-block;
-  }
 
-  main {
-    margin-top: 80px;
-  }
 
 .level {
     text-align: center;
