@@ -17,6 +17,10 @@
     font-size: 10px;
     
   }
+
+main {
+    padding-top: 50px;
+}
 #navicon{
     display: block;
     aspect-ratio: 100;
